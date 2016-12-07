@@ -2,10 +2,12 @@ Prerequest
 - Install postgresql
 
 To try out
+```
 $ git clone https://github.com/uspc/swagger-node-sampleapi.git
 $ npm install
 $ psql -f puppies.sql
 $ npm run start
+```
 
 Browse swagger json
 http://localhost:3000/swagger.json
